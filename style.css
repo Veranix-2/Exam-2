@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1220px;
+    margin: 0 auto;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+header nav ul{
+    display: flex;
+    gap: 128px;
+    list-style: none;
+    align-items: center;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: #222222;
+    font-weight: 700;
+    font-size: 14px;
+}
+header nav ul button{
+    border: 2px solid #DE2E54;
+    border-radius: 8px;
+    width: 189px;
+    height: 37px;
+    background-color: #fff;
+    color: #DE2E54;
+    transition: 0.80s;
+}
+/* 
+----------------------------------------------------------------------------------------------------------------
+                                          S1
+----------------------------------------------------------------------------------------------------------------
+*/
+.s1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+    background-image: url(./img/image\ 4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.s1t{
+    max-width: 450px;
+}
+.s1t h2{
+    margin: 30px 0;
+}
+.s1 button{
+    border: 2px solid #DE2E54;
+    border-radius: 8px;
+    width: 189px;
+    height: 37px;
+    background-color: #c0020200;
+    color: #DE2E54;
+    font-weight: 900;
+    transition: 0.80s;
+}
+/* 
+----------------------------------------------------------------------------------------------------------------
+                                          S2
+----------------------------------------------------------------------------------------------------------------
+*/
+.s2{
+    padding: 60px;
+}
+.s2 h2{
+    text-align: center;
+    padding: 50px;
+}
+.s2 .card{
+    margin: auto;
+    width: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 64px;
+}
+/* 
+----------------------------------------------------------------------------------------------------------------
+                                          S3
+----------------------------------------------------------------------------------------------------------------
+*/
+.s3{
+    background-color: #0EB4C1;
+    padding: 50px;
+}
+h1{
+    font-family: Inter;
+    font-size: 50px;
+    text-align: center;
+    margin: 50px 0;
+}
+.mi{
+    margin-bottom: 0px;
+    gap: 60px;
+    display: flex;
+    justify-content: center;
+}
+.inputs{
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 40px;
+    width: 400px;
+    height: 300px;
+    transition: 1.18s;
+}
+input{
+    width: 315px;
+    height: 30px;
+    margin: 10px 0;
+    padding: 10px;
+    transition: 1.5s;
+}
+input:hover{
+    width: 365px;
+    height: 35px;
+}
+input:hover{
+    border: 2px solid #5E54A4;
+}
+.s3 button{
+    text-align: center;
+    width: 315px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: #38CC8B;
+    box-shadow: 0px -4px 0px 0px #00000017 inset;
+}
+/* 
+----------------------------------------------------------------------------------------------------------------
+                                          Footer
+----------------------------------------------------------------------------------------------------------------
+*/
+footer{
+    background-color: #222222;
+    padding: 10px;
+    display: flex;
+}
+/* footer ul li a{
+    text-decoration: none;
+    color: rgb(22, 20, 20);
+}
+footer ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+} */
+/* footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+} */
+/* footer nav ul{
+    display: flex;
+    gap: 128px;
+    list-style: none;
+    align-items: center;
+} */
+/* footer nav ul li a{
+    text-decoration: none;
+    color: #222222;
+    font-weight: 700;
+    font-size: 14px;
+} */
+a:hover{
+    color: #DE2E54;
+}
+button:hover{
+    background-color: #DE2E54;
+    color: #fff;
+}
+iframe{
+    transition: 1.8s;
+}
+.inputs:hover{
+    width: 450px;
+    height: 350px;
+    border-radius: 20px;
+    background-color: #ccc8c886;
+}
+iframe:hover{
+    width: 450px;
+    height: 350px;
+    border-radius: 20px;
+}
+button{
+    transition: 1.5;
+}
+p,h1,h2,h3,h4{
+    font-family: "Open Sans", sans-serif;
+}
